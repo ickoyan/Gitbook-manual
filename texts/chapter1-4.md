@@ -22,7 +22,7 @@ Node.js是Gitbook的环境需求，Git是我们同步数据的工具，Atom是�
 ![](/img/1-4-1.png)
 
 **步骤2：使用Github账户登录Gitbook**   
-打开Gitbook，点击登录按钮上方的黑粗Github子使用Github方式登录。   
+打开Gitbook，点击登录按钮上方的黑粗Github使用Github方式登录。   
 ![](/img/1-4-2.png)
 
 **步骤3：以Github/Git方式创建书籍**   
@@ -49,7 +49,7 @@ Node.js是Gitbook的环境需求，Git是我们同步数据的工具，Atom是�
 
 
 **步骤5：使用Atom编辑书籍**    
-拉取到书籍目录后就可以在Atom中打开了。如果你是Atom新手，这里建议你学习Atom的使用，或者直接使用Gitbook.Editor进行编辑。本人被Atom迷惑所以离不开它的，多样的插件与定制快捷键，可以与IDEA比较，又超过Sublime。
+拉取到书籍目录后就可以在Atom中打开了。如果你是Atom新手，这里建议你学习Atom的使用，或者直接使用Gitbook.Editor进行编辑。本人被Atom迷惑所以离不开它了，多样的插件与定制快捷键，可以与IDEA比较，又超过Sublime。
 这里给张本人正在编辑的截图：    
 ![](/img/1-4-7.png)   
     
