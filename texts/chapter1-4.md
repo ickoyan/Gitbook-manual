@@ -60,4 +60,7 @@ Node.js是Gitbook的环境需求，Git是我们同步数据的工具，Atom是�
 使用git status 查看状态,    
 使用git add . 添加所以的修改内容,    
 使用git commit -m "test" 提交到本地仓库
-打开Gitbook.Editor，点击本地书籍进去，同步即可。
+打开Gitbook.Editor，点击本地书籍进去，左上方的云按钮同步即可。
+
+
+ICKY
