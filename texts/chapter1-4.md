@@ -63,4 +63,4 @@ Node.js是Gitbook的环境需求，Git是我们同步数据的工具，Atom是�
 打开Gitbook.Editor，点击本地书籍进去，左上方的云按钮同步即可。
 
 
-ICKY
+ICKY！

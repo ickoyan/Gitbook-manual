@@ -6,13 +6,14 @@
 
 Gitbook就帮助我们解决了这个问题，我们可以通过 Github + Gitbook + 本地Git + Atom + Node.js + Gitbook.Editor 这一组合完成可分享、编辑、分布式总之高大上的方式来制作书籍。
 
-add new line
+##目录
 
-aaa
+* [Gitbook使用手册](README.md)
+* [Gitbook基础]
+  * [简介](/texts/chapter1-1.md)
+  * [Windows下搭建Gitbook平台](/texts/chapter1-2.md)
+  * [Gitbook命令](/texts/chapter1-3.md)
+  * [创建书籍Github-Gitbook-本地](/texts/chapter1-4.md)
 
-bbb
 
-ccc
-
-test
-
+ICKY
