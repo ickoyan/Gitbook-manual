@@ -6,7 +6,6 @@ Node.js官网: https://nodejs.org/en/
 
 两个软件安装下一步、下一步直到安装完成即可。
 因为Node.js在安装后会自动修改环境变量，所以我们可以使用命令`node -v`来验证是否安装成功。
-
 ![](/img/node.png)
 
 
