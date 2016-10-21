@@ -42,6 +42,22 @@ Node.js是Gitbook的环境需求，Git是我们同步数据的工具，Atom是�
 选择Git我们只有复制Github上Reoisutory的URL粘贴上去就OK了，最后记得Create Book.   
 ![](/img/1-4-5.png)   
 
+
 **步骤4：使用Gitbook.Editor导入Gitbook书籍**
+到这里我们需要打开安装好的Gitbook.Editor本地客户端，点击右上方的`Gitbook.com`按钮，会显示Gitbook上已创建的书籍，点击书籍会弹窗，点击clone就会拉取书籍模版到本地，这样就可以本地编辑了。   
+![](/img/1-4-6.gif)
+
 
 **步骤5：使用Atom编辑书籍**
+拉取到书籍目录后就可以在Atom中打开了。如果你是Atom新手，这里建议你学习Atom的使用，或者直接使用Gitbook.Editor进行编辑。本人被Atom迷惑所以离不开它的，多样的插件与定制快捷键，可以与IDEA比较，又超过Sublime。
+这里给张本人正在编辑的截图：    
+![](/img/1-4-7.png)   
+    
+
+**步骤6：同步本地仓库并提交书籍**   
+在我们编辑好后就需要同步本地仓库然后提交到Github.    
+首先右键书籍目录，选择Git Bash here，   
+使用git status 查看状态,    
+使用git add . 添加所以的修改内容,    
+使用git commit -m "test" 提交到本地仓库
+打开Gitbook.Editor，点击本地书籍进去，同步即可。
