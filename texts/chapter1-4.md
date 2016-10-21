@@ -21,11 +21,11 @@ Node.js是Gitbook的环境需求，Git是我们同步数据的工具，Atom是�
 打开Github网站，登录，并创建新的仓库。    
 ![](/img/1-4-1.png)
 
-**步骤2：使用Github账户登录Gitbook**
+**步骤2：使用Github账户登录Gitbook**   
 打开Gitbook，点击登录按钮上方的黑粗Github子使用Github方式登录。   
 ![](/img/1-4-2.png)
 
-**步骤3：以Github/Git方式创建书籍**
+**步骤3：以Github/Git方式创建书籍**   
 登录好后你就拥有了一个自己的Gitbook，现在就可以创建书籍了。点击右上方的NEW，默认显示前3个选项点击下方的箭头会翻页。
 * BOOK & MANUAL
 * API DOCUMENTATION
@@ -43,12 +43,12 @@ Node.js是Gitbook的环境需求，Git是我们同步数据的工具，Atom是�
 ![](/img/1-4-5.png)   
 
 
-**步骤4：使用Gitbook.Editor导入Gitbook书籍**
+**步骤4：使用Gitbook.Editor导入Gitbook书籍**   
 到这里我们需要打开安装好的Gitbook.Editor本地客户端，点击右上方的`Gitbook.com`按钮，会显示Gitbook上已创建的书籍，点击书籍会弹窗，点击clone就会拉取书籍模版到本地，这样就可以本地编辑了。   
 ![](/img/1-4-6.gif)
 
 
-**步骤5：使用Atom编辑书籍**
+**步骤5：使用Atom编辑书籍**    
 拉取到书籍目录后就可以在Atom中打开了。如果你是Atom新手，这里建议你学习Atom的使用，或者直接使用Gitbook.Editor进行编辑。本人被Atom迷惑所以离不开它的，多样的插件与定制快捷键，可以与IDEA比较，又超过Sublime。
 这里给张本人正在编辑的截图：    
 ![](/img/1-4-7.png)   

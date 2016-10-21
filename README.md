@@ -16,4 +16,6 @@ Gitbook就帮助我们解决了这个问题，我们可以通过 Github + Gitboo
   * [创建书籍Github-Gitbook-本地](/texts/chapter1-4.md)
 
 
+以上就是本人整理的Gitbook使用手册，适合Gitbook Newer!
+
 ICKY
