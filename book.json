@@ -1,1 +1,26 @@
-{}
+{
+  "plugins": [
+    "ace",
+    "emphasize",
+    "local-video",
+    "toggle-chapters",
+        "-expandable-chapters",
+        "-disqus",
+        "-search",
+        "-search-pro@1.0.7",
+        "-advanced-emoji@0.1.5",
+        "-github",
+        "-katex",
+        "-anchors",
+        "-include-codeblock",
+        "-mermaid",
+        "-tbfed-pagefooter",
+        "-sectionx",
+        "-codeblock-filename",
+        "-baidu",
+        "-sitemap@1.0.2",
+        "-donate",
+        "-toc",
+        "-edit-link"]
+    
+}
