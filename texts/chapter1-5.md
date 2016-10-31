@@ -45,8 +45,10 @@ This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}
 本地安装：   
 npm install gitbook-plugin-local-video
 
-启用：   
+启用： 
+```  
 "plugins": [ "local-video" ]
+```
 
 使用示例：为了使视频可以自适应，我们指定视频的width为100%，并设置宽高比为16:9，如下面所示
 
