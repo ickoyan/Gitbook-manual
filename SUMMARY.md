@@ -1,6 +1,6 @@
 # Gitbook初使用
 * [Gitbook使用手册](README.md)
-* [Gitbook基础]
+* Gitbook基础
   * [简介](/texts/chapter1-1.md)
   * [Windows下搭建Gitbook平台](/texts/chapter1-2.md)
   * [Gitbook命令](/texts/chapter1-3.md)
