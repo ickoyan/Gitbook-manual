@@ -5,30 +5,39 @@ Gitbook插件地址：https://plugins.gitbook.com/
 
 Gitbook插件的使用步骤：
 * npm命令安装插件
-* 在book.json中启用插件
+* 在book.json中启用插件   
 
+注：在使用npm安装插件的时候，确保在你的书籍目录下出现 `node_modules` 文件夹，要使你的书籍在Gitbook上正确显示安装插件的效果，确保上传插件文件的内容哦。
 
 ##ace 
 代码编辑插件，支持插入代码片段并高亮显示，支持110中编程语言。
 
 本地安装：   
-`npm install gitbook-plugin-ace`
+```
+npm install gitbook-plugin-ace
+```
 
 启用：   
-`"pluglins":["ace"]`
+```json
+"pluglins":["ace"]
+```
 
 
 ##emphasize
 为文字添加底色
 
 本地安装：   
-`npm install gitbook-plugin-emphasize`
+```
+npm install gitbook-plugin-emphasize
+```
 
-启用：   
-`"pluglins":["emphasize"]`
+启用：  
+```json 
+"pluglins":["emphasize"]
+```
 
 示例：   
-
+```
 This text is {% em %}highlighted !{% endem %}
 
 This text is {% em %}highlighted with **markdown**!{% endem %}
@@ -38,15 +47,18 @@ This text is {% em type="green" %}highlighted in green!{% endem %}
 This text is {% em type="red" %}highlighted in red!{% endem %}
 
 This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}
+```
 
 ##local-video
 在页面上键入视频
 
-本地安装：   
+本地安装：
+```   
 npm install gitbook-plugin-local-video
+```
 
 启用： 
-```  
+```json  
 "plugins": [ "local-video" ]
 ```
 
