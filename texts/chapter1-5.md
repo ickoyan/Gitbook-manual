@@ -27,5 +27,4 @@ Gitbook插件的使用步骤：
 `"pluglins":["emphasize"]`
 
 示例：   
-我们需要高亮显示两个字：｛% em %｝坚果{% endem %｝   
-This text is {% em type="green" %}highlighted in green!{% endem %}
+我们需要高亮显示两个字：坚果
