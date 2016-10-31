@@ -63,10 +63,10 @@ npm install gitbook-plugin-local-video
 ```
 
 使用示例：为了使视频可以自适应，我们指定视频的width为100%，并设置宽高比为16:9，如下面所示
-
+<!-- poster="http://zhangjikai.com/resource/poster.jpg" -->
 {% raw %}
 <video id="my-video" class="video-js" controls preload="auto" width="100%" 
-poster="http://zhangjikai.com/resource/poster.jpg" data-setup='{"aspectRatio":"16:9"}'>
+ data-setup='{"aspectRatio":"16:9"}'>
   <!-- <source src="http://zhangjikai.com/resource/demo.mp4" type='video/mp4' > -->
   <source src="http://120.25.195.103/timo/sss.mp4" type='video/mp4' >
   <p class="vjs-no-js">
