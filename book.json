@@ -4,6 +4,7 @@
     "emphasize",
     "local-video",
     "toggle-chapters",
+    "prism", "-highlight",
         "-expandable-chapters",
         "-disqus",
         "-search",
@@ -21,6 +22,13 @@
         "-sitemap@1.0.2",
         "-donate",
         "-toc",
-        "-edit-link"]
-    
+        "-edit-link"],
+        
+  "pluginsConfig": {  
+      "prism": {
+        "css": [
+          "prismjs/themes/prism-solarizedlight.css"
+        ]
+      }
+    }
 }
