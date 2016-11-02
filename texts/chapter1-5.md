@@ -67,7 +67,17 @@ npm install gitbook-plugin-local-video
 {% raw %}
 <video id="my-video" class="video-js" controls preload="auto" width="100%" 
  data-setup='{"aspectRatio":"16:9"}'>
-  <!-- <source src="http://zhangjikai.com/resource/demo.mp4" type='video/mp4' > -->
+  <source src="http://zhangjikai.com/resource/demo.mp4" type='video/mp4' >
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that
+    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+</video>
+{% endraw %}
+
+{% raw %}
+<video id="my-video" class="video-js" controls preload="auto" width="100%" 
+ data-setup='{"aspectRatio":"16:9"}'>
   <source src="http://120.25.195.103/timo/sss.mp4" type='video/mp4' >
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a web browser that
