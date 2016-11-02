@@ -63,22 +63,26 @@ npm install gitbook-plugin-local-video
 ```
 
 使用示例：为了使视频可以自适应，我们指定视频的width为100%，并设置宽高比为16:9，如下面所示
+
+网页播放mp4视频，出现有声音无图像问题，先使用格式工厂转换mp4->mp4格式,输出编码选择AVC(H264),然后在网页中代码调用，看是否解决问题。
 <!-- poster="http://zhangjikai.com/resource/poster.jpg" -->
+```
 {% raw %}
 <video id="my-video" class="video-js" controls preload="auto" width="100%" 
  data-setup='{"aspectRatio":"16:9"}'>
-  <source src="http://zhangjikai.com/resource/demo.mp4" type='video/mp4' >
+  <source src="http://120.25.195.103/mine/mv/sss.mp4" type='video/mp4' >
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a web browser that
     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
   </p>
 </video>
 {% endraw %}
+```
 
 {% raw %}
 <video id="my-video" class="video-js" controls preload="auto" width="100%" 
  data-setup='{"aspectRatio":"16:9"}'>
-  <source src="http://120.25.195.103/timo/sss.mp4" type='video/mp4' >
+  <source src="http://120.25.195.103/mine/mv/sss.mp4" type='video/mp4' >
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a web browser that
     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
